@@ -129,32 +129,28 @@ fn variables() {
     /* COMPOUND TYPES */
 
     /*TUPLES */
-    let mut tup1=(18,"Dahal",true);
-    println!("{:?}",tup1);
+    let mut tup1 = (18, "Dahal", true);
+    println!("{:?}", tup1);
     //changing the value of a mutable tuple , but need to rember that needs to be same data tpyes
-     tup1.0=2095;
-     tup1.1="bandri";
-     tup1.2=false;
+    tup1.0 = 2095;
+    tup1.1 = "bandri";
+    tup1.2 = false;
     //printing the tuple
-     println!("{:?}",tup1);
+    println!("{:?}", tup1);
 
-
-let mut  arr=[10,20,30];
- // Unlike any other programming language, you can't add any extra elements
+    let mut arr = [10, 20, 30];
+    // Unlike any other programming language, you can't add any extra elements
     // onto this array :( BUT there's something called 'vectors' which
     // allow you to do this and we'll touch upon them later!
     // Modifying the elements
-println!("{:?}",arr);
-    //changing the values of an array 
-arr[0]=1000;
-arr[1]=1000;
-arr[2]=1000;
+    println!("{:?}", arr);
+    //changing the values of an array
+    arr[0] = 1000;
+    arr[1] = 1000;
+    arr[2] = 1000;
     //printing the values of an array which is changed
 
-println!("{:?}",arr);
+    println!("{:?}", arr);
 
-
- 
+    // end of day 4
 }
-
-
